@@ -1,0 +1,233 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  overflow: none;
+
+}
+body{
+  background-color: rgb(6, 38, 63);
+  
+} 
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+.nav-list{
+  display: flex;
+  align-items: center;
+}
+.nav-list a:hover{
+  color: rgb(89, 247, 200);
+}
+.nav-list a{
+ color: #fff;
+ transition: all 0.5s;
+}
+.logo{
+  margin-right: 500px;
+  font-size: 20px;
+  font-weight: 600;
+  cursor: pointer;
+
+}
+.nav-list li{
+  padding: 20px 25px;
+}
+.btn{
+  background-color:#fff;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  
+}
+.btn a:hover{
+ 
+ color: blue;
+}
+.btn a{
+  color:rgb(6, 38, 63);
+}
+.logo{
+  display: flex;
+}
+.logo img{
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+  
+}
+.logo p{
+  font-size: 25px;
+  color: #fff;
+  margin-top: 35px;
+  margin-right: 20px;
+}
+.image-hero{
+  display: flex;
+  justify-content: space-between;
+}
+.hero{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.hero h3{
+  color: #fff;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular',;
+  font-weight: normal;
+  text-align: left;
+  width: 330px;
+  
+
+}
+.hero p{
+  color: #fff;
+  font-size: 12px;
+  text-align: left;
+  margin-top: 20px;
+}
+.button{
+  position: absolute;
+  margin-top: 30px;
+}
+.hero .template:hover{
+ color: white;
+ background-color: blue;
+ 
+}
+.hero .template{
+  height: 30px;
+  width: 130px;
+  background-color: rgb(89, 247, 200);
+  color: rgb(6, 38, 63) ;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 5px;
+  cursor: pointer;
+}
+.hero .explore:hover{
+  background-color: rgb(89, 247, 200) ;
+  color: black;
+}
+.hero .explore{
+   height: 30px;
+  width: 80px;
+  border:2px solid #fff;
+  background-color: rgb(6, 38, 63) ;
+  border-radius:30px;
+  color: #fff;
+  margin-left: 10px;
+  cursor: pointer;
+} 
+.images{
+  margin-left: 200px;
+  margin-top: 10px;
+}
+.eclipse1{
+  height: 150px;
+  width: 250px;
+}
+.eclipse2{
+  height: 150px;
+  width: 250px;
+}
+.eclipse3{
+  height: 200px;
+  width: 500px;
+}
+.last-logo {
+  display: flex;
+  justify-content:  center;
+  padding: 20px;
+  margin-top: 10px;
+}
+.logo1{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-right: 950px;
+  
+}
+.logo2{
+  width: 20px;
+  height: 20px;
+  margin-right: 550px;
+  position: absolute;
+  margin-top: 25px;
+}
+.logo3{
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  margin-right: 200px;
+}
+.logo4{
+    width: 20px;
+    height: 20px;
+    margin-left: 250px;
+    position: absolute;
+    margin-top: 25px;
+}
+.logo5{
+  width: 50px;
+  height: 50px;
+  margin-left: 600px;
+  position: absolute;
+}
+
+.logo6{
+  width: 20px;
+  height: 20px;
+  margin-left: 1000px;
+  position: absolute;
+  margin-top: 25px;
+}
+.last-logo h3{
+  color: #f1e1e1;
+}
+.log1{
+  margin-right: 850px;
+  position: absolute;
+  margin-top: 23px;
+}
+.log2{
+  margin-right: 470px;
+  position: absolute;
+  margin-top: 23px;
+
+}
+.log3{
+  margin-right: 100px;
+  position: absolute;
+  margin-top: 23px;
+
+}
+.log4{
+  margin-left: 330px;
+  position: absolute;
+  margin-top: 23px;
+
+}
+.log5{
+  margin-left: 700px;
+  position: absolute;
+  margin-top: 23px;
+
+}
+.log6{
+  margin-left: 1080px;
+  position: absolute;
+  margin-top: 23px;
+
+}
